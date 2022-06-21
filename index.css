@@ -1,0 +1,304 @@
+body {
+  margin: 0px;
+  font-family: 'Poppins', sans-serif;
+  background: #f2f4f5;
+}
+.navbarnav {
+  background-color: #002f34;
+  position: fixed;
+  width: 100%;
+}
+.navbarul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1174px;
+  margin: auto;
+}
+.navbarli {
+  list-style: none;
+  padding: 14px
+}
+.navbara {
+  text-decoration: none;
+  color: white;
+  transition: all .3s ease;
+}
+.navbara:hover {
+  color: #7f9799;
+}
+.navlogo {
+  width: 90px;
+  height: 80px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+li:first-child {
+  padding: 0px;
+  margin-right: auto;
+}
+footer {
+  justify-content: center;
+}
+#icon {
+  padding-right: 7px;
+}
+#icon:hover {
+  color: #7f9799;
+}
+.pod {
+  border: 4px solid white;
+  color: #002f34;
+  padding: 15px;
+  background: white;
+  border-radius: 10px;
+  transition: all .3s ease;
+  text-decoration: none;
+}
+.pod:hover {
+  background: #002f34;
+  color: white;
+}
+.txtp {
+  font-weight: 700;
+  font-size: 60px;
+  color: #002f34;
+  margin-bottom: 0px;
+  margin-top: 40px;
+  width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.imgdivbox {
+  width: 1174px;
+  height: 450px;
+}
+.divboxh2 {
+  color: #002f34;
+  font-weight: 200px;
+}
+.divimg {
+  text-align: center;
+}
+.navlip {
+  cursor: default;
+  color: #7f9799;
+}
+.sectioon {
+  margin-top: 100px;
+}
+#btns {
+  padding-top: 170px;
+  
+}
+
+
+.container {
+  text-align: center;
+}
+
+.btns {
+  border: 0;
+  cursor: pointer;
+  padding: 10px;
+  padding-bottom: 20px;
+  margin: 0px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+ .buygrey {
+  color: #7f9799;
+  border-bottom: 2px solid #7f9799;
+  background: transparent;
+ }
+ .headingbutton {
+  color: #002f34;
+  border-bottom: 2px solid #002f34;
+  background: transparent;
+  font-weight: 700;
+ }
+ .cardsh1 {
+  color: #002f34;
+  text-align: center;
+ }
+ .dowload {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .rah1 {
+  color: #002f34;
+  width: 280px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+ }
+ .card {
+  border: 1 px solid white;
+  width: 250px;
+  height: 360px;
+  background-color: white;
+  text-align: center;
+  margin: 8px;
+  padding: 20px;
+ }
+ .cardp {
+  color: #406367;
+  font-size: 13px;
+ }
+ .cardh5 {
+  color: #002f34;
+ }
+ .cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+
+ #sellSection {
+  display: none;
+ }
+
+
+ section {
+  transition: all .3s ease;
+ }
+ .olximg {
+  text-align: center;
+ }
+
+ .show {
+  display: block!important;
+ }
+
+ .hidden {
+  display: none!important;
+ }
+
+ .coneccard {
+  text-align: center;
+  width: 300px;
+  margin: 45px;
+  margin-bottom: 0px;
+ }
+ .conec {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 40px;
+ }
+ .nacath4 {
+  border: 4px solid #002f34;
+  font-size: 15px;
+  background-color: #002f34;
+  color: white;
+  border-radius: 6px;
+  padding: 6px 50px;
+  transition: all .3s ease;
+  cursor: pointer;
+  text-decoration: none;
+ }
+ .nacath4:hover {
+  color: #002f34;
+  background-color: white;
+ }
+ .nacat {
+  text-align: center;
+ }
+ .afooter {
+ text-decoration: none;
+  color: black;
+ }
+ .bfooter {
+  display: block;
+  margin-left: 40px;
+  margin-bottom: 30px;
+ }
+ .pfooter {
+  display: flex;
+
+ }
+ .imga {
+  margin-right: 10px;
+ }
+ .footerp {
+  text-align: center;
+  color: #8E8E8E;
+ }
+ @media screen and (max-width: 1000px) {
+  .navbarnav {
+  width: 1000px!important;
+}
+
+.navbarul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+i {
+  margin: 0px!important;
+}
+.navbarli {
+  padding: 5px!important;
+}
+
+
+li:first-child {
+  padding: 0px;
+  margin-left: 0px;
+  margin-right: 0px!important;
+}
+.navli {
+  margin-left: auto;
+}
+
+ul {
+  padding: 0px!important;
+  margin: 0px!important;
+  display: flex;
+  justify-content: flex-start!important;
+}
+
+nav {
+  padding: 0px!important;
+}
+.conec {
+  flex-wrap: wrap;
+}
+
+.txtp {
+  font-size: 35px;
+  width: 300px;
+
+}
+.cards {
+  flex-wrap: wrap;
+}
+.cardsh1 {
+  margin-top: 0px!important;
+}
+
+.imgdivbox {
+  width: 450px!important;
+}
+ .navbarli1 {
+  display: none;
+ }
+.divboxh2 {
+  margin-bottom: 0px;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+}
+
+@media screen and (max-width: 610px) {
+
+}
