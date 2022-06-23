@@ -8,6 +8,9 @@ body {
   position: fixed;
   width: 100%;
 }
+ul {
+  list-style: none;
+}
 .navbarul {
   display: flex;
   justify-content: center;
@@ -122,10 +125,10 @@ footer {
   text-align: center;
  }
  .dowload {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
+  margin-left: 50px;
  }
+
  .rah1 {
   color: #002f34;
   width: 280px;
@@ -215,7 +218,7 @@ footer {
  .bfooter {
   display: block;
   margin-left: 40px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
  }
  .pfooter {
   display: flex;
@@ -276,6 +279,9 @@ nav {
   width: 300px;
 
 }
+.pfooter {
+  flex-wrap: wrap;
+}
 .cards {
   flex-wrap: wrap;
 }
@@ -292,13 +298,6 @@ nav {
 .divboxh2 {
   margin-bottom: 0px;
 }
-nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-}
 
-@media screen and (max-width: 610px) {
 
 }
